@@ -7,9 +7,9 @@ const RoomOrange = () => {
         <div>
             <div className={"relative flex flex-col md:flex-row justify-center items-center my-16 py-16"}>
                 {/*Background effect*/}
-                <div className={"absolute -left-10 w-[120vw] h-full -rotate-3 bg-gradient-to-r from-[#AC6E34] to-[#743800] left-0 top-0 -z-10"}></div>
+                <div className={"absolute -left-12 w-[200vw] h-full -rotate-3 bg-gradient-to-r from-[#AC6E34] to-[#743800] -left-[100px] top-0 -z-10"}></div>
 
-                <div className={"flex justify-center md:items-start items-center flex-col md:w-1/3"}>
+                <div className={"mb-8 flex justify-center md:items-start items-center flex-col md:w-1/3"}>
                     <h6 className={"text-6xl md:text-left text-center"}>
                         Ou bien Orange ?
                     </h6>

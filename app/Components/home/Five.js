@@ -7,13 +7,13 @@ const Five = () => {
         <div className={"relative flex flex-col md:flex-row justify-center items-center my-16 py-16"}>
             {/*Background effect*/}
             <div
-                className={"absolute -left-10 w-[120vw] h-full rotate-3 bg-gradient-to-r from-[#008FA6] to-[#155661] left-0 top-0 -z-10"}></div>
+                className={"absolute -left-12 w-[200vw] h-full rotate-3 bg-gradient-to-r from-[#008FA6] to-[#155661] -left-[100px] top-0 -z-10"}></div>
 
-            <div className={"w-1/3"}>
+            <div className={"hidden md:block md:w-1/3"}>
                 <Image src={"/assets/images/five-picture-2.png"} alt={"image de la salle bleue"} width={500} height={500}
                        />
             </div>
-            <div className={"flex justify-center md:items-start items-center flex-col md:w-1/3"}>
+            <div className={"mb-8 flex justify-center md:items-start items-center flex-col md:w-1/3"}>
                 <h6 className={"text-6xl md:text-left text-center"}>
                     Envie de bouger ?
                 </h6>
@@ -33,9 +33,9 @@ const Five = () => {
                 </div>
             </div>
 
-            <div className={"md:w-1/3"}>
+            <div className={"w-1/2 md:w-1/3"}>
                 <Image src={"/assets/images/five-picture.png"} alt={"image de la salle bleue"} width={500}
-                       height={400}/>
+                       height={500}/>
             </div>
         </div>
     );

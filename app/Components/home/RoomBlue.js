@@ -6,7 +6,7 @@ const RoomBlue = () => {
     return (
         <div id={"rooms"} className={"relative flex flex-col md:flex-row justify-center items-center my-16 py-16"}>
             {/*Background effect*/}
-            <div className={"absolute -left-10 w-[120vw] h-full rotate-3 bg-gradient-to-r from-[#003C74] to-[#3E86C8] left-0 top-0 -z-10"}></div>
+            <div className={"absolute w-[200vw] h-full rotate-3 bg-gradient-to-r from-[#003C74] to-[#3E86C8] -left-[100px] top-0 -z-10"}></div>
 
             <div className={" md:w-1/2"}>
                 <Image src={"/assets/images/room-one-picture.png"} alt={"image de la salle bleue"} width={500} height={400}/>
