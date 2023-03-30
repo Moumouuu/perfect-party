@@ -15,7 +15,7 @@ const Process = () => {
                 <ShineEffect/>
             </div>
 
-            <h3 className={"text-4xl my-16 text-center "}>Avec nous c'est simple !</h3>
+            <h3 className={"text-4xl my-16 text-center "}>Avec nous c&apos;est simple !</h3>
             <div className={"flex flex-col sm:flex-row justify-center items-center"}>
                 <CardAbout id={"01"} title={"Organisez"} subtitle={"votre soirée"} icons={<BiPhoneCall/>} />
                 <CardAbout id={"02"} title={"Réserver"} subtitle={"en toute sécurité"} icons={<BiParty/>} />

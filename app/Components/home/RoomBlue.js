@@ -23,7 +23,7 @@ const RoomBlue = () => {
                 <div>
                     <button
                         className={"px-7 py-5 flex items-center bg-[#003C74] rounded-lg hover:bg-[#00294F] duration-300"}>
-                        Réserver l'Orange
+                        Réserver l&apos;Orange
                         <div className={"text-2xl ml-2"}>
                             <AiOutlineArrowRight/>
                         </div>

@@ -15,7 +15,7 @@ const About = () => {
                 <ShineEffect/>
             </div>
 
-            <h3 className={"text-4xl my-16 text-center "}>Perfect Party c'est quoi ?</h3>
+            <h3 className={"text-4xl my-16 text-center "}>Perfect Party c&apos;est quoi ?</h3>
             <div className={"flex flex-col sm:flex-row justify-center items-center"}>
                 <CardAbout id={"01"} title={"Soirées"} subtitle={"Customisées selon vos choix et privées !"} icons={<BiParty/>} />
                 <CardAbout id={"02"} title={"Five"} subtitle={"Envie de faire du sport entre amis ? "} icons={<BiFootball/>} />
