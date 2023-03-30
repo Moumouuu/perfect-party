@@ -4,10 +4,10 @@
 
 @font-face {
     font-family: 'Lilita One';
-    src: url('/public/assets/fonts/lilita-one/LilitaOne-Regular.ttf') format('truetype');
+    src: url('/assets/fonts/lilita-one/LilitaOne-Regular.ttf') format('truetype');
 }
 
-@import '/public/assets/fonts/lilita-one/LilitaOne-Regular.ttf';
+@import '/assets/fonts/lilita-one/LilitaOne-Regular.ttf';
 
 *{
     font-family: 'Lilita One';
