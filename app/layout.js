@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from "@/app/Components/layout/Header";
 import Footer from "@/app/Components/layout/Footer";
+import {Analytics} from "@vercel/analytics/react";
 
 export const metadata = {
     title: 'Perfect Party',
@@ -13,6 +14,7 @@ export default function RootLayout({children}) {
         <body className={"bg-[#003D47]"}>
             <Header/>
             {children}
+            <Analytics/>
             <Footer/>
             </body>
         </html>
