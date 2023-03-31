@@ -8,15 +8,15 @@ const Options = ({setPriceOptions, setOptionsChooses}) => {
             price: 35,
         },
         {
-            name: "Décoration du Gâteaux d'anniversaire",
+            name: "Un gateau d'anniversaire décoré",
             price: 40,
         },
         {
-            name: "Repas",
+            name: "Repas & apéritif",
             price: 50,
         },
         {
-            name: "Boisons soft et tireuse à bière",
+            name: "Boissons soft et tireuse à bière",
             price: 60,
         }
     ]
@@ -49,20 +49,20 @@ const Options = ({setPriceOptions, setOptionsChooses}) => {
 
 
     return (
-        <div className={"flex flex-col w-full items-center"}>
-            <div className={"md:w-[90%] border-b-2 border-gray-50 pl-10 pb-3"}>
-                <h3 className={"text-4xl my-10 underline"}>Options :</h3>
+        <div className={"flex flex-col w-full items-center px-2 border-b-2 border-gray-50"}>
+            <div className={"md:w-[90%] md:pl-10 pb-3"}>
+                <h3 className={"text-3xl text-[#00A7C1] my-10 underline text-center md:text-left"}>Options :</h3>
                 <div className={"flex flex-col mb-8"}>
 
                     {options.map((option, index) => (
-                        <div key={index} className={"flex justify-between"}>
+                        <div key={index} className={"flex justify-between items-center"}>
                             <div className={"flex"}>
                                 <input type="checkbox"
                                        onChange={() => handleOption(option)}
                                        placeholder={"Veuillez renseigner votre adresse mail..."}
                                        className={"option"}
                                 />
-                                <span className={"text-xl ml-2"}>{option.name}</span>
+                                <span className={"text-xl mx-2"}>{option.name}</span>
                             </div>
                             <span>{option.price}€</span>
                         </div>
