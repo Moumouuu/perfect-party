@@ -6,9 +6,14 @@
     font-family: 'Lilita One';
     src: url('/assets/fonts/lilita-one/LilitaOne-Regular.ttf') format('truetype');
 }
+@import 'react-date-range/dist/styles.css';
+@import 'react-date-range/dist/theme/default.css';
 
 @import '/assets/fonts/lilita-one/LilitaOne-Regular.ttf';
 
+.rdrStaticRangeLabel,rdrInputRange{
+    color: black;
+}
 *{
     font-family: 'Lilita One';
     color: white;
@@ -20,4 +25,8 @@
 }
 html{
     scroll-behavior: smooth;
+}
+
+.csms{
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }

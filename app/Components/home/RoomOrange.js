@@ -5,7 +5,7 @@ import {AiOutlineArrowRight} from "react-icons/all";
 const RoomOrange = () => {
     return (
         <div>
-            <div className={"relative flex flex-col md:flex-row justify-center items-center my-16 py-16"}>
+            <div className={"relative flex flex-col md:flex-row justify-center items-center mb-[200px] pt-12"}>
                 {/*Background effect*/}
                 <div className={"absolute -left-12 w-[200vw] h-full -rotate-3 bg-gradient-to-r from-[#AC6E34] to-[#743800] -left-[100px] top-0 -z-10"}></div>
 
@@ -21,15 +21,15 @@ const RoomOrange = () => {
                     <div>
                         <button
                             className={"px-7 py-5 flex items-center bg-[#743800] rounded-lg hover:bg-[#4F2600] duration-300"}>
-                            Réserver la Bleue
+                            Réserver l&apos;Orange
                             <div className={"text-2xl ml-2"}>
                                 <AiOutlineArrowRight/>
                             </div>
                         </button>
                     </div>
                 </div>
-                <div className={" md:w-1/2"}>
-                    <Image src={"/assets/images/room-two-picture.png"} alt={"image de la salle bleue"} width={600} height={500}/>
+                <div className={"md:w-1/2"}>
+                    <Image src={"/assets/images/room-two-picture.png"} alt={"image de la salle bleue"} width={800} height={600}/>
                 </div>
             </div>
         </div>

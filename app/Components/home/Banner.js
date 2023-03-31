@@ -5,13 +5,13 @@ import ShineEffect from "@/app/Components/utils/ShineEffect";
 
 const Banner = () => {
     return (
-        <div className={"mt-8 relative flex flex-col sm:flex-row items-center justify-center md:h-[70vh] mb-16"}>
+        <div className={"mt-8 relative flex flex-col sm:flex-row items-center justify-start md:justify-center md:h-[70vh] mb-[100px]"}>
             {/*Shine effect*/}
             <div className={"absolute left-0 -z-10"}>
                 <ShineEffect/>
             </div>
 
-            <div className={"flex flex-col md:w-1/2 items-center text-center "}>
+            <div className={"flex flex-col md:w-1/2 items-center text-center md:items-start md:text-left "}>
                 <h1 className={"text-7xl text-white mb-10"}>Perfect <span
                     className={"outline pr-2 text-[#003D47]"}>Party</span>
                 </h1>

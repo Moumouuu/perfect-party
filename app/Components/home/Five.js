@@ -4,7 +4,7 @@ import {AiOutlineArrowRight} from "react-icons/all";
 
 const Five = () => {
     return (
-        <div className={"relative flex flex-col md:flex-row justify-center items-center my-16 py-16"}>
+        <div className={"relative flex flex-col md:flex-row justify-center items-center mb-[200px] py-16"}>
             {/*Background effect*/}
             <div
                 className={"absolute -left-12 w-[200vw] h-full rotate-3 bg-gradient-to-r from-[#008FA6] to-[#155661] -left-[100px] top-0 -z-10"}></div>

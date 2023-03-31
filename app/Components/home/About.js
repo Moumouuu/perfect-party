@@ -5,7 +5,7 @@ import ShineEffect from "@/app/Components/utils/ShineEffect";
 
 const About = () => {
     return (
-        <div className={"relative flex flex-col my-16"}>
+        <div className={"relative flex flex-col mb-[200px]"}>
             {/*Shine effect*/}
 
             <div className={"absolute right-1/2 -z-10"}>
