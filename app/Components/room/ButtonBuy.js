@@ -4,7 +4,7 @@ import {loadStripe} from "@stripe/stripe-js";
 import * as emailjs from "@emailjs/browser";
 
 const ButtonBuy = ({userInfos, optionsChooses, totalPrice}) => {
-    const publishableKey = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
+    const publishableKey = `${process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY}`;
     const stripePromise = loadStripe(publishableKey);
 
     const [loading, setLoading] = useState(false);
