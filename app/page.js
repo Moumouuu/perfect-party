@@ -5,11 +5,10 @@ import RoomBlue from "@/app/Components/home/RoomBlue";
 import RoomOrange from "@/app/Components/home/RoomOrange";
 import Process from "@/app/Components/home/Process";
 import Five from "@/app/Components/home/Five";
-import {useRouter} from "next/navigation";
 import {useState} from "react";
 
 export default function Home() {
-    const params = new URLSearchParams(window.location.search)
+    const params = new URLSearchParams(window?.location.search)
     const status = params.get('status')
 
     const [openAlert, setOpenAlert] = useState(true)
