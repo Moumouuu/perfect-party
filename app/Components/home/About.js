@@ -17,8 +17,8 @@ const About = () => {
 
             <h3 className={"text-4xl my-16 text-center "}>Perfect Party c&apos;est quoi ?</h3>
             <div className={"flex flex-col sm:flex-row justify-center items-center"}>
-                <CardAbout id={"01"} title={"Soirées"} subtitle={"Customisées selon vos choix et privées !"} icons={<BiParty/>} />
-                <CardAbout id={"02"} title={"Five"} subtitle={"Envie de faire du sport entre amis ? "} icons={<BiFootball/>} />
+                <CardAbout id={"01"} title={"Soirées"} subtitle={"Des salles pour vos soirées de 14 à 24 personnes ."} icons={<BiParty/>} />
+                <CardAbout id={"02"} title={"Five"} subtitle={"pour une séance de foot et même pendant la soirée ! "} icons={<BiFootball/>} />
                 <CardAbout id={"03"} title={"Évènements"} subtitle={"Murder party, soirée à thème & plus encore ..."} icons={<BsCalendarEvent/>} />
             </div>
         </div>

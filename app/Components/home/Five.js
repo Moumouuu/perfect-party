@@ -20,7 +20,7 @@ const Five = () => {
                 <ul className={"text-2xl my-5 list-disc"}>
                     <li>6 - 14 personnes</li>
                     <li>Ouvert de 14h à 19h / ou RDV</li>
-                    <li>Prix unitaire de 6€</li>
+                    <li>Prix unitaire de 7€</li>
                 </ul>
                 <div>
                     <button

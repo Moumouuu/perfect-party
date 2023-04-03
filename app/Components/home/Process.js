@@ -17,9 +17,9 @@ const Process = () => {
 
             <h3 className={"text-4xl my-16 text-center "}>Avec nous c&apos;est simple !</h3>
             <div className={"flex flex-col sm:flex-row justify-center items-center"}>
-                <CardAbout id={"01"} title={"Préparez"} subtitle={"votre soirée."} icons={<BiPhoneCall/>} />
+                <CardAbout id={"01"} title={"Choisissez"} subtitle={"votre salle de rêve !"} icons={<BiPhoneCall/>} />
                 <CardAbout id={"02"} title={"Réservez"} subtitle={"rapidement et en toute sécurité."} icons={<BiParty/>} />
-                <CardAbout id={"03"} title={"Fêtez"} subtitle={"votre location est assurée !"} icons={<IoTicketOutline/>} />
+                <CardAbout id={"03"} title={"Fêtez"} subtitle={"avec vos amis !"} icons={<IoTicketOutline/>} />
             </div>
         </div>
     );

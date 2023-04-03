@@ -32,7 +32,7 @@ const Page = () => {
 
     return (
         <div className={"flex w-full flex-col md:flex-row overflow-hidden"}>
-            <Informations room={"Bleue"} setStartDate={setStartDate} startDate={startDate} endDate={endDate}
+            <Informations room={"Orange"} setStartDate={setStartDate} startDate={startDate} endDate={endDate}
                           setEndDate={setEndDate} setGuests={setGuests} userInfos={userInfos}/>
 
             <Details guests={guests} night={night} priceWithoutOptions={priceWithoutOptions} totalPrice={totalPrice}
