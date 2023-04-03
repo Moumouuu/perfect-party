@@ -7,9 +7,8 @@ import Process from "@/app/Components/home/Process";
 import Five from "@/app/Components/home/Five";
 import {useState} from "react";
 
-export default function Home() {
-    const params = new URLSearchParams(window?.location.search)
-    const status = params.get('status')
+export default function Home({searchParams}) {
+    const status = searchParams.status
 
     const [openAlert, setOpenAlert] = useState(true)
 
