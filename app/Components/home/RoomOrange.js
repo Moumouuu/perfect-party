@@ -16,10 +16,11 @@ const RoomOrange = () => {
                     </h6>
                     <ul className={"text-2xl my-5 list-disc"}>
                         <li>12 - 24 personnes </li>
-                        <li>Baby-Foot / AirHockey / Mini Bowling </li>
+                        <li>Baby-Foot / AirHockey </li>
+                        <li>Mini Bowling</li>
                         <li>Table pour vos Bières Pong</li>
-                        <li>Jeu de plateau</li>
-                        <li>Enceintes</li>
+                        <li>Jeu de société</li>
+                        <li>Enceintes Bluetooth</li>
                     </ul>
                     <div>
                         <Link href={"/reservation/orange"}

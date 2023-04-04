@@ -24,13 +24,13 @@ const Five = () => {
                     <li>Prix unitaire de 7€</li>
                 </ul>
                 <div>
-                    <Link href={"reservation/five"}
+                    <a href="mailto:aurelie.hry2003@gmail.com"
                         className={"px-7 py-5 flex items-center bg-[#1E1E1E] rounded-lg hover:bg-[#000] duration-300"}>
                         Réserver un Five
                         <div className={"text-2xl ml-2"}>
                             <AiOutlineArrowRight/>
                         </div>
-                    </Link>
+                    </a>
                 </div>
             </div>
 

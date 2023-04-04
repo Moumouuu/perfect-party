@@ -5,7 +5,7 @@ import Link from "next/link";
 import {DateRange} from "react-date-range/";
 import ShineEffect from "@/app/Components/utils/ShineEffect";
 
-const Informations = ({room, startDate, endDate, setStartDate, setEndDate, setGuests, userInfos}) => {
+const Informations = ({room, minPeople,maxPeople,startDate, endDate, setStartDate, setEndDate, setGuests, userInfos}) => {
     const [showCalendar, setShowCalendar] = useState(false);
 
 
@@ -82,7 +82,7 @@ const Informations = ({room, startDate, endDate, setStartDate, setEndDate, setGu
                         <div className={"flex w-full justify-between"}>
                             <div className={"flex"}>
                                 <span className={"mr-2 text-xl"}>Je souhaite inviter : </span>
-                                <input onChange={(e) => setGuests(e.target.value)} type="number" min={6} max={16}
+                                <input onChange={(e) => setGuests(e.target.value)} type="number" min={minPeople} max={maxPeople}
                                        placeholder={"0"}
                                        className={"text-2xl outline-none bg-transparent text-[#00A7C1]"}/>
                                 <span className={"text-xl"}>personnes</span>

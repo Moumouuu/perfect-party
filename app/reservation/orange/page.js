@@ -6,7 +6,8 @@ import Details from "@/app/Components/room/Details";
 
 const Page = () => {
     const pricePerPerson = 17;
-
+    const minPeople = 12;
+    const maxPeople = 24;
     const userInfos = useState({
         email: null,
         phone: null,
@@ -32,7 +33,7 @@ const Page = () => {
 
     return (
         <div className={"flex w-full flex-col md:flex-row overflow-hidden"}>
-            <Informations room={"Orange"} setStartDate={setStartDate} startDate={startDate} endDate={endDate}
+            <Informations room={"Orange"} minPeople={minPeople} maxPeople={maxPeople} setStartDate={setStartDate} startDate={startDate} endDate={endDate}
                           setEndDate={setEndDate} setGuests={setGuests} userInfos={userInfos}/>
 
             <Details guests={guests} night={night} priceWithoutOptions={priceWithoutOptions} totalPrice={totalPrice}

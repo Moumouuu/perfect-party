@@ -2,8 +2,8 @@ import React from 'react';
 import ButtonBuy from "@/app/Components/room/ButtonBuy";
 import Options from "@/app/Components/room/Options";
 import ShineEffect from "@/app/Components/utils/ShineEffect";
-import {useRouter} from "next/router";
-import {usePathname, useSearchParams} from "next/navigation";
+import {usePathname} from "next/navigation";
+
 const Details = ({
                      guests,
                      night,
@@ -16,7 +16,6 @@ const Details = ({
                      pricePerPerson,
                  }) => {
 
-    const pathname = usePathname()
 
     return (
         <div className={"relative md:w-1/2 flex flex-col justify-center items-center pb-16"}>
@@ -28,10 +27,8 @@ const Details = ({
                 <ShineEffect/>
             </div>
 
-            {/*Only show for the blue and the orange room*/}
-            {pathname !== "/reservation/five" && (
-                <Options setPriceOptions={setPriceOptions} setOptionsChooses={setOptionsChooses}/>
-            )}
+            <Options setPriceOptions={setPriceOptions} setOptionsChooses={setOptionsChooses}/>
+
             <div className={"border-b-2 md:mt-5 border-gray-50 py-8 md:w-[90%]"}>
                 <div className={"flex items-center mb-7 justify-center"}>
                     <h2 className={"text-5xl"}>Détails du prix</h2>

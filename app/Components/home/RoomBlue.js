@@ -17,10 +17,10 @@ const RoomBlue = () => {
                     Vous êtes plutôt Bleu ?
                 </h6>
                 <ul className={"text-2xl my-5 list-disc"}>
-                    <li>12 - 12 personnes </li>
-                    <li>Billard / Baby-Foot / AirHockey / Billard</li>
-                    <li>Jeu de plateau</li>
-                    <li>Enceintes</li>
+                    <li>12 - 22 personnes </li>
+                    <li>Billard / Baby-Foot / AirHockey </li>
+                    <li>Jeu de société</li>
+                    <li>Enceintes Bluetooth</li>
                 </ul>
                 <div>
                     <Link href={"/reservation/blue"}
