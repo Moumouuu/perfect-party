@@ -12,7 +12,7 @@ const Options = ({setPriceOptions, setOptionsChooses}) => {
             price:70,
         },
         {
-            name: "Un gateau d'anniversaire décoré (18 parts)",
+            name: "Un gateau d'anniversaire (18 parts)",
             price: 40,
         },
         {
