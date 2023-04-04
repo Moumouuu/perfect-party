@@ -5,10 +5,14 @@ const Options = ({setPriceOptions, setOptionsChooses}) => {
     const options = [
         {
             name: "Décoration du lieu",
-            price: 35,
+            price: 45,
         },
         {
-            name: "Un gateau d'anniversaire décoré",
+            name: "Photobooth ( impression des photos en direct )",
+            price:70,
+        },
+        {
+            name: "Un gateau d'anniversaire décoré (18 parts)",
             price: 40,
         },
         {
@@ -17,7 +21,7 @@ const Options = ({setPriceOptions, setOptionsChooses}) => {
         },
         {
             name: "Boissons soft et tireuse à bière",
-            price: 60,
+            price: 130,
         }
     ]
     /**

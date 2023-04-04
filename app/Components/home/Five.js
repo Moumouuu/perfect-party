@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import {AiOutlineArrowRight} from "react-icons/all";
+import Link from "next/link";
 
 const Five = () => {
     return (
@@ -23,13 +24,13 @@ const Five = () => {
                     <li>Prix unitaire de 7€</li>
                 </ul>
                 <div>
-                    <button
+                    <Link href={"reservation/five"}
                         className={"px-7 py-5 flex items-center bg-[#1E1E1E] rounded-lg hover:bg-[#000] duration-300"}>
                         Réserver un Five
                         <div className={"text-2xl ml-2"}>
                             <AiOutlineArrowRight/>
                         </div>
-                    </button>
+                    </Link>
                 </div>
             </div>
 

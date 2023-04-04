@@ -37,7 +37,7 @@ const Page = () => {
 
             <Details guests={guests} night={night} priceWithoutOptions={priceWithoutOptions} totalPrice={totalPrice}
                      setPriceOptions={setPriceOptions} optionsChooses={optionsChooses}
-                     setOptionsChooses={setOptionsChooses} userInfos={userInfos}/>
+                     setOptionsChooses={setOptionsChooses} userInfos={userInfos} pricePerPerson={pricePerPerson}/>
         </div>
     );
 };
