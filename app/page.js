@@ -9,7 +9,7 @@ import {useState} from "react";
 
 export default function Home({searchParams}) {
     const status = searchParams.status
-
+    console.log(status)
     const [openAlert, setOpenAlert] = useState(true)
 
     return (
