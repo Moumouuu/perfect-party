@@ -7,6 +7,7 @@ import Process from "@/app/Components/home/Process";
 import Five from "@/app/Components/home/Five";
 import {useState} from "react";
 
+export const dynamic = 'force-dynamic';
 export default function Home({searchParams}) {
     const status = searchParams.status
     console.log(status)
