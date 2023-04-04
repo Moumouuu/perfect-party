@@ -6,11 +6,10 @@ import RoomOrange from "@/app/Components/home/RoomOrange";
 import Process from "@/app/Components/home/Process";
 import Five from "@/app/Components/home/Five";
 import {useState} from "react";
+import {useSearchParams} from "next/navigation";
 
-export const dynamic = 'force-dynamic';
-export default function Home({searchParams}) {
-    const status = searchParams.status
-    console.log(status)
+export default function Home({}) {
+    const status = useSearchParams().get("status")
     const [openAlert, setOpenAlert] = useState(true)
 
     return (
