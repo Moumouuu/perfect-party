@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
-import {loadStripe} from "@stripe/stripe-js";
-import * as emailjs from "@emailjs/browser";
+import { useState } from 'react';
 
 const ButtonBuy = ({userInfos, optionsChooses, totalPrice}) => {
     const publishableKey = `${process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY}`;

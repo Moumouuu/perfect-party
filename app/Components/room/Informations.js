@@ -1,9 +1,9 @@
 "use client";
-import React, {useState} from 'react';
-import {AiOutlineArrowLeft, AiOutlineMail, AiOutlinePhone} from "react-icons/ai";
-import Link from "next/link";
-import {DateRange} from "react-date-range/";
 import ShineEffect from "@/app/Components/utils/ShineEffect";
+import Link from "next/link";
+import { useState } from 'react';
+import { DateRange } from "react-date-range/";
+import { AiOutlineArrowLeft, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 const Informations = ({room, minPeople,maxPeople,startDate, endDate, setStartDate, setEndDate, setGuests, userInfos}) => {
     const [showCalendar, setShowCalendar] = useState(false);

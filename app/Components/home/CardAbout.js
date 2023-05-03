@@ -1,4 +1,3 @@
-import React from 'react';
 
 const CardAbout = ({id, title, subtitle, icons}) => {
     return (

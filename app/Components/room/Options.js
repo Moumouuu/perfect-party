@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Options = ({setPriceOptions, setOptionsChooses}) => {
 
@@ -14,10 +13,6 @@ const Options = ({setPriceOptions, setOptionsChooses}) => {
         {
             name: "Un gateau d'anniversaire (18 parts)",
             price: 40,
-        },
-        {
-            name: "Repas & apéritif",
-            price: 50,
         },
         {
             name: "Boissons soft et tireuse à bière",

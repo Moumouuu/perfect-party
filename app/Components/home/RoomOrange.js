@@ -1,7 +1,6 @@
-import React from 'react';
 import Image from "next/image";
-import {AiOutlineArrowRight} from "react-icons/all";
 import Link from "next/link";
+import { AiOutlineArrowRight } from "react-icons/all";
 
 const RoomOrange = () => {
     return (

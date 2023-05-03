@@ -1,7 +1,7 @@
-import './globals.css'
-import Header from "@/app/Components/layout/Header";
 import Footer from "@/app/Components/layout/Footer";
-import {Analytics} from "@vercel/analytics/react";
+import Header from "@/app/Components/layout/Header";
+import { Analytics } from "@vercel/analytics/react";
+import './globals.css';
 
 export const metadata = {
     title: 'Perfect Party',

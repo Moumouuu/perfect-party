@@ -1,7 +1,7 @@
 "use client";
-import React, {useEffect, useState} from 'react';
-import Informations from "@/app/Components/room/Informations";
 import Details from "@/app/Components/room/Details";
+import Informations from "@/app/Components/room/Informations";
+import { useEffect, useState } from 'react';
 
 
 const Page = () => {

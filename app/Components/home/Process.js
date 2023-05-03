@@ -1,7 +1,6 @@
-import React from 'react';
-import ShineEffect from "@/app/Components/utils/ShineEffect";
 import CardAbout from "@/app/Components/home/CardAbout";
-import {BiParty, BiPhoneCall, GiThink, IoTicketOutline} from "react-icons/all";
+import ShineEffect from "@/app/Components/utils/ShineEffect";
+import { BiParty, BiPhoneCall, GiThink } from "react-icons/all";
 
 const Process = () => {
     return (

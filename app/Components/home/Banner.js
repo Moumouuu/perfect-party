@@ -1,7 +1,6 @@
-import React from 'react';
-import {AiOutlineArrowRight} from "react-icons/all";
-import Image from "next/image";
 import ShineEffect from "@/app/Components/utils/ShineEffect";
+import Image from "next/image";
+import { AiOutlineArrowRight } from "react-icons/all";
 
 const Banner = () => {
     return (

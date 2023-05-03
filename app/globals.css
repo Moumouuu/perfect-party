@@ -3,30 +3,32 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Lilita One';
-    src: url('/assets/fonts/lilita-one/LilitaOne-Regular.ttf') format('truetype');
+  font-family: "Lilita One";
+  src: url("/assets/fonts/lilita-one/LilitaOne-Regular.ttf") format("truetype");
 }
-@import 'react-date-range/dist/styles.css';
-@import 'react-date-range/dist/theme/default.css';
+@import "react-date-range/dist/styles.css";
+@import "react-date-range/dist/theme/default.css";
 
-@import '/assets/fonts/lilita-one/LilitaOne-Regular.ttf';
+@import "/assets/fonts/lilita-one/LilitaOne-Regular.ttf";
 
-.rdrStaticRangeLabel,rdrInputRange{
-    color: black;
+.rdrStaticRangeLabel,
+rdrInputRange {
+  color: black;
 }
-*{
-    font-family: 'Lilita One';
-    color: white;
-}
-
-.outline{
-    outline-style: none;
-    text-shadow: -1px -1px 0 #00A7C1, 1px -1px 0 #00A7C1, -1px 1px 0 #00A7C1, 1px 1px 0 #00A7C1;
-}
-html{
-    scroll-behavior: smooth;
+* {
+  font-family: "Lilita One";
+  color: white;
 }
 
-.csms{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+.outline {
+  outline-style: none;
+  text-shadow: -1px -1px 0 #00a7c1, 1px -1px 0 #00a7c1, -1px 1px 0 #00a7c1,
+    1px 1px 0 #00a7c1;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.csms {
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }

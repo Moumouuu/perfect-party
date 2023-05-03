@@ -1,8 +1,6 @@
-import React from 'react';
 import ButtonBuy from "@/app/Components/room/ButtonBuy";
 import Options from "@/app/Components/room/Options";
 import ShineEffect from "@/app/Components/utils/ShineEffect";
-import {usePathname} from "next/navigation";
 
 const Details = ({
                      guests,

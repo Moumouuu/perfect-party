@@ -1,7 +1,6 @@
-import React from 'react';
 import CardAbout from "@/app/Components/home/CardAbout";
-import {BiFootball, BiParty, BsCalendarEvent} from "react-icons/all";
 import ShineEffect from "@/app/Components/utils/ShineEffect";
+import { BiFootball, BiParty, BsCalendarEvent } from "react-icons/all";
 
 const About = () => {
     return (
